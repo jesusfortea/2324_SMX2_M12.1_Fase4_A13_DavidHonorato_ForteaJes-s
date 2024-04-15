@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+}
+
+#encabezado{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+#imagen_encabezado{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+#logo{
+    width: 75%;
+}
+
+
+#parte_lateral_derecha{
+    width: 40%;
+    color: aliceblue;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    padding-right: 10%;
+    position: absolute;
+}
+
+#título_encabezado{
+    color: aliceblue;
+    font-size: 450%;
+}
+
+#descripción_encabezado{
+    font-size: 150%;
+}
+
+#Título{
+    font-size: 150%;
+    padding-left: 1%;
+}
+
+#fila{
+    width: 100%;
+    display: flex;
+    background-color:rgba(128, 128, 128, 0.2);
+}
+
+#seccion{
+    width: 100%;
+}
+
+#imagen{
+    width: 100%;
+    padding: 5%;
+}
+
+#pie{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 130%;
+    text-decoration: none;
+    padding: 2%;
+}
+
+
+.estilo{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
