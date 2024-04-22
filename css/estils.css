@@ -41,7 +41,7 @@ body{
 }
 
 #Título{
-    font-size: 150%;
+    font-size: 250%;
     padding-left: 1%;
 }
 
@@ -52,7 +52,8 @@ body{
 }
 
 #seccion{
-    width: 100%;
+    width: 50%;
+    display: flex;
 }
 
 #imagen{
@@ -100,6 +101,11 @@ body{
         font-size: 250%;
     }
 
+    #Título{
+        font-size: 200%;
+        padding-left: 1%;
+    }
+
 }
 
 @media screen and (max-width: 1250px) {
@@ -121,7 +127,12 @@ body{
     }
 
     #descripción_encabezado{
+        font-size: 180%;
+    }
+
+    #Título{
         font-size: 200%;
+        padding-left: 1%;
     }
 
 }
@@ -148,6 +159,12 @@ body{
         font-size: 150%;
     }
 
+    #Título{
+        font-size: 150%;
+        padding-left: 1%;
+    }
+
+
 }
 
 @media screen and (max-width: 700px) {
@@ -170,6 +187,32 @@ body{
 
     #descripción_encabezado{
         font-size: 100%;
+    }
+
+    #seccion{
+        width: 100%;
+        display: block;
+    }
+
+    #imagen{
+        width: 80%;
+        height: 47%;
+        padding: 0%;
+        padding-left: 7%;
+        padding-top: 4%;
+    }
+
+    #fila{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color:rgba(128, 128, 128, 0.2);
+    }
+
+    #Título{
+        font-size: 150%;
+        padding-left: 1%;
+        text-align: center;
     }
 
 }
@@ -196,6 +239,32 @@ body{
         font-size: 90%;
     }
 
+    #seccion{
+        width: 100%;
+        display: block;
+    }
+
+    #imagen{
+        width: 80%;
+        height: 47%;
+        padding: 0%;
+        padding-left: 7%;
+        padding-top: 4%;
+    }
+
+    #fila{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color:rgba(128, 128, 128, 0.2);
+    }
+
+    #Título{
+        font-size: 150%;
+        padding-left: 1%;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -219,5 +288,32 @@ body{
     #descripción_encabezado{
         font-size: 80%;
     }
+
+    #seccion{
+        width: 100%;
+        display: block;
+    }
+
+    #imagen{
+        width: 80%;
+        height: 47%;
+        padding: 0%;
+        padding-left: 7%;
+        padding-top: 4%;
+    }
+
+    #fila{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color:rgba(128, 128, 128, 0.2);
+    }
+
+    #Título{
+        font-size: 150%;
+        padding-left: 1%;
+        text-align: center;
+    }
+
 
 }
